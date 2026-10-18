@@ -1,0 +1,381 @@
+teryt_powiat,teryt_powiat_4,teryt_wojewodztwo,wojewodztwo,nazwa_bdl,nazwa_smup,powiat_sio,is_duplicate_name,duplicate_order
+0201000,0201,02,Dolnośląskie,Powiat bolesławiecki,Powiat bolesławiecki,bolesławiecki,FALSE,NA
+0202000,0202,02,Dolnośląskie,Powiat dzierżoniowski,Powiat dzierżoniowski,dzierżoniowski,FALSE,NA
+0203000,0203,02,Dolnośląskie,Powiat głogowski,Powiat głogowski,głogowski,FALSE,NA
+0204000,0204,02,Dolnośląskie,Powiat górowski,Powiat górowski,górowski,FALSE,NA
+0205000,0205,02,Dolnośląskie,Powiat jaworski,Powiat jaworski,jaworski,FALSE,NA
+0206000,0206,02,Dolnośląskie,Powiat karkonoski,Powiat karkonoski,karkonoski,FALSE,NA
+0207000,0207,02,Dolnośląskie,Powiat kamiennogórski,Powiat kamiennogórski,kamiennogórski,FALSE,NA
+0208000,0208,02,Dolnośląskie,Powiat kłodzki,Powiat kłodzki,kłodzki,FALSE,NA
+0209000,0209,02,Dolnośląskie,Powiat legnicki,Powiat legnicki,legnicki,FALSE,NA
+0210000,0210,02,Dolnośląskie,Powiat lubański,Powiat lubański,lubański,FALSE,NA
+0211000,0211,02,Dolnośląskie,Powiat lubiński,Powiat lubiński,lubiński,FALSE,NA
+0212000,0212,02,Dolnośląskie,Powiat lwówecki,Powiat lwówecki,lwówecki,FALSE,NA
+0213000,0213,02,Dolnośląskie,Powiat milicki,Powiat milicki,milicki,FALSE,NA
+0214000,0214,02,Dolnośląskie,Powiat oleśnicki,Powiat oleśnicki,oleśnicki,FALSE,NA
+0215000,0215,02,Dolnośląskie,Powiat oławski,Powiat oławski,oławski,FALSE,NA
+0216000,0216,02,Dolnośląskie,Powiat polkowicki,Powiat polkowicki,polkowicki,FALSE,NA
+0217000,0217,02,Dolnośląskie,Powiat strzeliński,Powiat strzeliński,strzeliński,FALSE,NA
+0218000,0218,02,Dolnośląskie,Powiat średzki,Powiat średzki,średzki,TRUE,1
+0219000,0219,02,Dolnośląskie,Powiat świdnicki,Powiat świdnicki,świdnicki,TRUE,1
+0220000,0220,02,Dolnośląskie,Powiat trzebnicki,Powiat trzebnicki,trzebnicki,FALSE,NA
+0221000,0221,02,Dolnośląskie,Powiat wałbrzyski,Powiat wałbrzyski,wałbrzyski,FALSE,NA
+0222000,0222,02,Dolnośląskie,Powiat wołowski,Powiat wołowski,wołowski,FALSE,NA
+0223000,0223,02,Dolnośląskie,Powiat wrocławski,Powiat wrocławski,wrocławski,FALSE,NA
+0224000,0224,02,Dolnośląskie,Powiat ząbkowicki,Powiat ząbkowicki,ząbkowicki,FALSE,NA
+0225000,0225,02,Dolnośląskie,Powiat zgorzelecki,Powiat zgorzelecki,zgorzelecki,FALSE,NA
+0226000,0226,02,Dolnośląskie,Powiat złotoryjski,Powiat złotoryjski,złotoryjski,FALSE,NA
+0261000,0261,02,Dolnośląskie,Powiat m. Jelenia Góra,Powiat m. Jelenia Góra,m. Jelenia Góra,FALSE,NA
+0262000,0262,02,Dolnośląskie,Powiat m. Legnica,Powiat m. Legnica,m. Legnica,FALSE,NA
+0264000,0264,02,Dolnośląskie,Powiat m. Wrocław,Powiat m. Wrocław,m. Wrocław,FALSE,NA
+0265000,0265,02,Dolnośląskie,Powiat m. Wałbrzych od 2013,Powiat m. Wałbrzych,m. Wałbrzych,FALSE,NA
+0401000,0401,04,Kujawsko-Pomorskie,Powiat aleksandrowski,Powiat aleksandrowski,aleksandrowski,FALSE,NA
+0402000,0402,04,Kujawsko-Pomorskie,Powiat brodnicki,Powiat brodnicki,brodnicki,FALSE,NA
+0403000,0403,04,Kujawsko-Pomorskie,Powiat bydgoski,Powiat bydgoski,bydgoski,FALSE,NA
+0404000,0404,04,Kujawsko-Pomorskie,Powiat chełmiński,Powiat chełmiński,chełmiński,FALSE,NA
+0405000,0405,04,Kujawsko-Pomorskie,Powiat golubsko-dobrzyński,Powiat golubsko-dobrzyński,golubsko-dobrzyński,FALSE,NA
+0406000,0406,04,Kujawsko-Pomorskie,Powiat grudziądzki,Powiat grudziądzki,grudziądzki,FALSE,NA
+0407000,0407,04,Kujawsko-Pomorskie,Powiat inowrocławski,Powiat inowrocławski,inowrocławski,FALSE,NA
+0408000,0408,04,Kujawsko-Pomorskie,Powiat lipnowski,Powiat lipnowski,lipnowski,FALSE,NA
+0409000,0409,04,Kujawsko-Pomorskie,Powiat mogileński,Powiat mogileński,mogileński,FALSE,NA
+0410000,0410,04,Kujawsko-Pomorskie,Powiat nakielski,Powiat nakielski,nakielski,FALSE,NA
+0411000,0411,04,Kujawsko-Pomorskie,Powiat radziejowski,Powiat radziejowski,radziejowski,FALSE,NA
+0412000,0412,04,Kujawsko-Pomorskie,Powiat rypiński,Powiat rypiński,rypiński,FALSE,NA
+0413000,0413,04,Kujawsko-Pomorskie,Powiat sępoleński,Powiat sępoleński,sępoleński,FALSE,NA
+0414000,0414,04,Kujawsko-Pomorskie,Powiat świecki,Powiat świecki,świecki,FALSE,NA
+0415000,0415,04,Kujawsko-Pomorskie,Powiat toruński,Powiat toruński,toruński,FALSE,NA
+0416000,0416,04,Kujawsko-Pomorskie,Powiat tucholski,Powiat tucholski,tucholski,FALSE,NA
+0417000,0417,04,Kujawsko-Pomorskie,Powiat wąbrzeski,Powiat wąbrzeski,wąbrzeski,FALSE,NA
+0418000,0418,04,Kujawsko-Pomorskie,Powiat włocławski,Powiat włocławski,włocławski,FALSE,NA
+0419000,0419,04,Kujawsko-Pomorskie,Powiat żniński,Powiat żniński,żniński,FALSE,NA
+0461000,0461,04,Kujawsko-Pomorskie,Powiat m. Bydgoszcz,Powiat m. Bydgoszcz,m. Bydgoszcz,FALSE,NA
+0462000,0462,04,Kujawsko-Pomorskie,Powiat m. Grudziądz,Powiat m. Grudziądz,m. Grudziądz,FALSE,NA
+0463000,0463,04,Kujawsko-Pomorskie,Powiat m. Toruń,Powiat m. Toruń,m. Toruń,FALSE,NA
+0464000,0464,04,Kujawsko-Pomorskie,Powiat m. Włocławek,Powiat m. Włocławek,m. Włocławek,FALSE,NA
+0601000,0601,06,Lubelskie,Powiat bialski,Powiat bialski,bialski,FALSE,NA
+0602000,0602,06,Lubelskie,Powiat biłgorajski,Powiat biłgorajski,biłgorajski,FALSE,NA
+0603000,0603,06,Lubelskie,Powiat chełmski,Powiat chełmski,chełmski,FALSE,NA
+0604000,0604,06,Lubelskie,Powiat hrubieszowski,Powiat hrubieszowski,hrubieszowski,FALSE,NA
+0605000,0605,06,Lubelskie,Powiat janowski,Powiat janowski,janowski,FALSE,NA
+0606000,0606,06,Lubelskie,Powiat krasnostawski,Powiat krasnostawski,krasnostawski,FALSE,NA
+0607000,0607,06,Lubelskie,Powiat kraśnicki,Powiat kraśnicki,kraśnicki,FALSE,NA
+0608000,0608,06,Lubelskie,Powiat lubartowski,Powiat lubartowski,lubartowski,FALSE,NA
+0609000,0609,06,Lubelskie,Powiat lubelski,Powiat lubelski,lubelski,FALSE,NA
+0610000,0610,06,Lubelskie,Powiat łęczyński,Powiat łęczyński,łęczyński,FALSE,NA
+0611000,0611,06,Lubelskie,Powiat łukowski,Powiat łukowski,łukowski,FALSE,NA
+0612000,0612,06,Lubelskie,Powiat opolski,Powiat opolski,opolski,TRUE,1
+0613000,0613,06,Lubelskie,Powiat parczewski,Powiat parczewski,parczewski,FALSE,NA
+0614000,0614,06,Lubelskie,Powiat puławski,Powiat puławski,puławski,FALSE,NA
+0615000,0615,06,Lubelskie,Powiat radzyński,Powiat radzyński,radzyński,FALSE,NA
+0616000,0616,06,Lubelskie,Powiat rycki,Powiat rycki,rycki,FALSE,NA
+0617000,0617,06,Lubelskie,Powiat świdnicki,Powiat świdnicki,świdnicki,TRUE,2
+0618000,0618,06,Lubelskie,Powiat tomaszowski,Powiat tomaszowski,tomaszowski,TRUE,1
+0619000,0619,06,Lubelskie,Powiat włodawski,Powiat włodawski,włodawski,FALSE,NA
+0620000,0620,06,Lubelskie,Powiat zamojski,Powiat zamojski,zamojski,FALSE,NA
+0661000,0661,06,Lubelskie,Powiat m. Biała Podlaska,Powiat m. Biała Podlaska,m. Biała Podlaska,FALSE,NA
+0662000,0662,06,Lubelskie,Powiat m. Chełm,Powiat m. Chełm,m. Chełm,FALSE,NA
+0663000,0663,06,Lubelskie,Powiat m. Lublin,Powiat m. Lublin,m. Lublin,FALSE,NA
+0664000,0664,06,Lubelskie,Powiat m. Zamość,Powiat m. Zamość,m. Zamość,FALSE,NA
+0801000,0801,08,Lubuskie,Powiat gorzowski,Powiat gorzowski,gorzowski,FALSE,NA
+0802000,0802,08,Lubuskie,Powiat krośnieński,Powiat krośnieński,krośnieński,TRUE,1
+0803000,0803,08,Lubuskie,Powiat międzyrzecki,Powiat międzyrzecki,międzyrzecki,FALSE,NA
+0804000,0804,08,Lubuskie,Powiat nowosolski,Powiat nowosolski,nowosolski,FALSE,NA
+0805000,0805,08,Lubuskie,Powiat słubicki,Powiat słubicki,słubicki,FALSE,NA
+0806000,0806,08,Lubuskie,Powiat strzelecko-drezdenecki,Powiat strzelecko-drezdenecki,strzelecko-drezdenecki,FALSE,NA
+0807000,0807,08,Lubuskie,Powiat sulęciński,Powiat sulęciński,sulęciński,FALSE,NA
+0808000,0808,08,Lubuskie,Powiat świebodziński,Powiat świebodziński,świebodziński,FALSE,NA
+0809000,0809,08,Lubuskie,Powiat zielonogórski,Powiat zielonogórski,zielonogórski,FALSE,NA
+0810000,0810,08,Lubuskie,Powiat żagański,Powiat żagański,żagański,FALSE,NA
+0811000,0811,08,Lubuskie,Powiat żarski,Powiat żarski,żarski,FALSE,NA
+0812000,0812,08,Lubuskie,Powiat wschowski,Powiat wschowski,wschowski,FALSE,NA
+0861000,0861,08,Lubuskie,Powiat m. Gorzów Wielkopolski,Powiat m. Gorzów Wielkopolski,m. Gorzów Wielkopolski,FALSE,NA
+0862000,0862,08,Lubuskie,Powiat m. Zielona Góra,Powiat m. Zielona Góra,m. Zielona Góra,FALSE,NA
+1001000,1001,10,Łódzkie,Powiat bełchatowski,Powiat bełchatowski,bełchatowski,FALSE,NA
+1002000,1002,10,Łódzkie,Powiat kutnowski,Powiat kutnowski,kutnowski,FALSE,NA
+1003000,1003,10,Łódzkie,Powiat łaski,Powiat łaski,łaski,FALSE,NA
+1004000,1004,10,Łódzkie,Powiat łęczycki,Powiat łęczycki,łęczycki,FALSE,NA
+1005000,1005,10,Łódzkie,Powiat łowicki,Powiat łowicki,łowicki,FALSE,NA
+1006000,1006,10,Łódzkie,Powiat łódzki wschodni,Powiat łódzki wschodni,łódzki wschodni,FALSE,NA
+1007000,1007,10,Łódzkie,Powiat opoczyński,Powiat opoczyński,opoczyński,FALSE,NA
+1008000,1008,10,Łódzkie,Powiat pabianicki,Powiat pabianicki,pabianicki,FALSE,NA
+1009000,1009,10,Łódzkie,Powiat pajęczański,Powiat pajęczański,pajęczański,FALSE,NA
+1010000,1010,10,Łódzkie,Powiat piotrkowski,Powiat piotrkowski,piotrkowski,FALSE,NA
+1011000,1011,10,Łódzkie,Powiat poddębicki,Powiat poddębicki,poddębicki,FALSE,NA
+1012000,1012,10,Łódzkie,Powiat radomszczański,Powiat radomszczański,radomszczański,FALSE,NA
+1013000,1013,10,Łódzkie,Powiat rawski,Powiat rawski,rawski,FALSE,NA
+1014000,1014,10,Łódzkie,Powiat sieradzki,Powiat sieradzki,sieradzki,FALSE,NA
+1015000,1015,10,Łódzkie,Powiat skierniewicki,Powiat skierniewicki,skierniewicki,FALSE,NA
+1016000,1016,10,Łódzkie,Powiat tomaszowski,Powiat tomaszowski,tomaszowski,TRUE,2
+1017000,1017,10,Łódzkie,Powiat wieluński,Powiat wieluński,wieluński,FALSE,NA
+1018000,1018,10,Łódzkie,Powiat wieruszowski,Powiat wieruszowski,wieruszowski,FALSE,NA
+1019000,1019,10,Łódzkie,Powiat zduńskowolski,Powiat zduńskowolski,zduńskowolski,FALSE,NA
+1020000,1020,10,Łódzkie,Powiat zgierski,Powiat zgierski,zgierski,FALSE,NA
+1021000,1021,10,Łódzkie,Powiat brzeziński,Powiat brzeziński,brzeziński,FALSE,NA
+1061000,1061,10,Łódzkie,Powiat m. Łódź,Powiat m. Łódź,m. Łódź,FALSE,NA
+1062000,1062,10,Łódzkie,Powiat m. Piotrków Trybunalski,Powiat m. Piotrków Trybunalski,m. Piotrków Trybunalski,FALSE,NA
+1063000,1063,10,Łódzkie,Powiat m. Skierniewice,Powiat m. Skierniewice,m. Skierniewice,FALSE,NA
+1201000,1201,12,Małopolskie,Powiat bocheński,Powiat bocheński,bocheński,FALSE,NA
+1202000,1202,12,Małopolskie,Powiat brzeski,Powiat brzeski,brzeski,TRUE,1
+1203000,1203,12,Małopolskie,Powiat chrzanowski,Powiat chrzanowski,chrzanowski,FALSE,NA
+1204000,1204,12,Małopolskie,Powiat dąbrowski,Powiat dąbrowski,dąbrowski,FALSE,NA
+1205000,1205,12,Małopolskie,Powiat gorlicki,Powiat gorlicki,gorlicki,FALSE,NA
+1206000,1206,12,Małopolskie,Powiat krakowski,Powiat krakowski,krakowski,FALSE,NA
+1207000,1207,12,Małopolskie,Powiat limanowski,Powiat limanowski,limanowski,FALSE,NA
+1208000,1208,12,Małopolskie,Powiat miechowski,Powiat miechowski,miechowski,FALSE,NA
+1209000,1209,12,Małopolskie,Powiat myślenicki,Powiat myślenicki,myślenicki,FALSE,NA
+1210000,1210,12,Małopolskie,Powiat nowosądecki,Powiat nowosądecki,nowosądecki,FALSE,NA
+1211000,1211,12,Małopolskie,Powiat nowotarski,Powiat nowotarski,nowotarski,FALSE,NA
+1212000,1212,12,Małopolskie,Powiat olkuski,Powiat olkuski,olkuski,FALSE,NA
+1213000,1213,12,Małopolskie,Powiat oświęcimski,Powiat oświęcimski,oświęcimski,FALSE,NA
+1214000,1214,12,Małopolskie,Powiat proszowicki,Powiat proszowicki,proszowicki,FALSE,NA
+1215000,1215,12,Małopolskie,Powiat suski,Powiat suski,suski,FALSE,NA
+1216000,1216,12,Małopolskie,Powiat tarnowski,Powiat tarnowski,tarnowski,FALSE,NA
+1217000,1217,12,Małopolskie,Powiat tatrzański,Powiat tatrzański,tatrzański,FALSE,NA
+1218000,1218,12,Małopolskie,Powiat wadowicki,Powiat wadowicki,wadowicki,FALSE,NA
+1219000,1219,12,Małopolskie,Powiat wielicki,Powiat wielicki,wielicki,FALSE,NA
+1261000,1261,12,Małopolskie,Powiat m. Kraków,Powiat m. Kraków,m. Kraków,FALSE,NA
+1262000,1262,12,Małopolskie,Powiat m. Nowy Sącz,Powiat m. Nowy Sącz,m. Nowy Sącz,FALSE,NA
+1263000,1263,12,Małopolskie,Powiat m. Tarnów,Powiat m. Tarnów,m. Tarnów,FALSE,NA
+1401000,1401,14,Mazowieckie,Powiat białobrzeski,Powiat białobrzeski,białobrzeski,FALSE,NA
+1402000,1402,14,Mazowieckie,Powiat ciechanowski,Powiat ciechanowski,ciechanowski,FALSE,NA
+1403000,1403,14,Mazowieckie,Powiat garwoliński,Powiat garwoliński,garwoliński,FALSE,NA
+1404000,1404,14,Mazowieckie,Powiat gostyniński,Powiat gostyniński,gostyniński,FALSE,NA
+1405000,1405,14,Mazowieckie,Powiat grodziski,Powiat grodziski,grodziski,TRUE,1
+1406000,1406,14,Mazowieckie,Powiat grójecki,Powiat grójecki,grójecki,FALSE,NA
+1407000,1407,14,Mazowieckie,Powiat kozienicki,Powiat kozienicki,kozienicki,FALSE,NA
+1408000,1408,14,Mazowieckie,Powiat legionowski,Powiat legionowski,legionowski,FALSE,NA
+1409000,1409,14,Mazowieckie,Powiat lipski,Powiat lipski,lipski,FALSE,NA
+1410000,1410,14,Mazowieckie,Powiat łosicki,Powiat łosicki,łosicki,FALSE,NA
+1411000,1411,14,Mazowieckie,Powiat makowski,Powiat makowski,makowski,FALSE,NA
+1412000,1412,14,Mazowieckie,Powiat miński,Powiat miński,miński,FALSE,NA
+1413000,1413,14,Mazowieckie,Powiat mławski,Powiat mławski,mławski,FALSE,NA
+1414000,1414,14,Mazowieckie,Powiat nowodworski,Powiat nowodworski,nowodworski,TRUE,1
+1415000,1415,14,Mazowieckie,Powiat ostrołęcki,Powiat ostrołęcki,ostrołęcki,FALSE,NA
+1416000,1416,14,Mazowieckie,Powiat ostrowski,Powiat ostrowski,ostrowski,TRUE,1
+1417000,1417,14,Mazowieckie,Powiat otwocki,Powiat otwocki,otwocki,FALSE,NA
+1418000,1418,14,Mazowieckie,Powiat piaseczyński,Powiat piaseczyński,piaseczyński,FALSE,NA
+1419000,1419,14,Mazowieckie,Powiat płocki,Powiat płocki,płocki,FALSE,NA
+1420000,1420,14,Mazowieckie,Powiat płoński,Powiat płoński,płoński,FALSE,NA
+1421000,1421,14,Mazowieckie,Powiat pruszkowski,Powiat pruszkowski,pruszkowski,FALSE,NA
+1422000,1422,14,Mazowieckie,Powiat przasnyski,Powiat przasnyski,przasnyski,FALSE,NA
+1423000,1423,14,Mazowieckie,Powiat przysuski,Powiat przysuski,przysuski,FALSE,NA
+1424000,1424,14,Mazowieckie,Powiat pułtuski,Powiat pułtuski,pułtuski,FALSE,NA
+1425000,1425,14,Mazowieckie,Powiat radomski,Powiat radomski,radomski,FALSE,NA
+1426000,1426,14,Mazowieckie,Powiat siedlecki,Powiat siedlecki,siedlecki,FALSE,NA
+1427000,1427,14,Mazowieckie,Powiat sierpecki,Powiat sierpecki,sierpecki,FALSE,NA
+1428000,1428,14,Mazowieckie,Powiat sochaczewski,Powiat sochaczewski,sochaczewski,FALSE,NA
+1429000,1429,14,Mazowieckie,Powiat sokołowski,Powiat sokołowski,sokołowski,FALSE,NA
+1430000,1430,14,Mazowieckie,Powiat szydłowiecki,Powiat szydłowiecki,szydłowiecki,FALSE,NA
+1432000,1432,14,Mazowieckie,Powiat warszawski zachodni,Powiat warszawski zachodni,warszawski zachodni,FALSE,NA
+1433000,1433,14,Mazowieckie,Powiat węgrowski,Powiat węgrowski,węgrowski,FALSE,NA
+1434000,1434,14,Mazowieckie,Powiat wołomiński,Powiat wołomiński,wołomiński,FALSE,NA
+1435000,1435,14,Mazowieckie,Powiat wyszkowski,Powiat wyszkowski,wyszkowski,FALSE,NA
+1436000,1436,14,Mazowieckie,Powiat zwoleński,Powiat zwoleński,zwoleński,FALSE,NA
+1437000,1437,14,Mazowieckie,Powiat żuromiński,Powiat żuromiński,żuromiński,FALSE,NA
+1438000,1438,14,Mazowieckie,Powiat żyrardowski,Powiat żyrardowski,żyrardowski,FALSE,NA
+1461000,1461,14,Mazowieckie,Powiat m. Ostrołęka,Powiat m. Ostrołęka,m. Ostrołęka,FALSE,NA
+1462000,1462,14,Mazowieckie,Powiat m. Płock,Powiat m. Płock,m. Płock,FALSE,NA
+1463000,1463,14,Mazowieckie,Powiat m. Radom,Powiat m. Radom,m. Radom,FALSE,NA
+1464000,1464,14,Mazowieckie,Powiat m. Siedlce,Powiat m. Siedlce,m. Siedlce,FALSE,NA
+1465000,1465,14,Mazowieckie,Powiat m. st. Warszawa,Powiat m. st. Warszawa,m. st. Warszawa,FALSE,NA
+1601000,1601,16,Opolskie,Powiat brzeski,Powiat brzeski,brzeski,TRUE,2
+1602000,1602,16,Opolskie,Powiat głubczycki,Powiat głubczycki,głubczycki,FALSE,NA
+1603000,1603,16,Opolskie,Powiat kędzierzyńsko-kozielski,Powiat kędzierzyńsko-kozielski,kędzierzyńsko-kozielski,FALSE,NA
+1604000,1604,16,Opolskie,Powiat kluczborski,Powiat kluczborski,kluczborski,FALSE,NA
+1605000,1605,16,Opolskie,Powiat krapkowicki,Powiat krapkowicki,krapkowicki,FALSE,NA
+1606000,1606,16,Opolskie,Powiat namysłowski,Powiat namysłowski,namysłowski,FALSE,NA
+1607000,1607,16,Opolskie,Powiat nyski,Powiat nyski,nyski,FALSE,NA
+1608000,1608,16,Opolskie,Powiat oleski,Powiat oleski,oleski,FALSE,NA
+1609000,1609,16,Opolskie,Powiat opolski,Powiat opolski,opolski,TRUE,2
+1610000,1610,16,Opolskie,Powiat prudnicki,Powiat prudnicki,prudnicki,FALSE,NA
+1611000,1611,16,Opolskie,Powiat strzelecki,Powiat strzelecki,strzelecki,FALSE,NA
+1661000,1661,16,Opolskie,Powiat m. Opole,Powiat m. Opole,m. Opole,FALSE,NA
+1801000,1801,18,Podkarpackie,Powiat bieszczadzki,Powiat bieszczadzki,bieszczadzki,FALSE,NA
+1802000,1802,18,Podkarpackie,Powiat brzozowski,Powiat brzozowski,brzozowski,FALSE,NA
+1803000,1803,18,Podkarpackie,Powiat dębicki,Powiat dębicki,dębicki,FALSE,NA
+1804000,1804,18,Podkarpackie,Powiat jarosławski,Powiat jarosławski,jarosławski,FALSE,NA
+1805000,1805,18,Podkarpackie,Powiat jasielski,Powiat jasielski,jasielski,FALSE,NA
+1806000,1806,18,Podkarpackie,Powiat kolbuszowski,Powiat kolbuszowski,kolbuszowski,FALSE,NA
+1807000,1807,18,Podkarpackie,Powiat krośnieński,Powiat krośnieński,krośnieński,TRUE,2
+1808000,1808,18,Podkarpackie,Powiat leżajski,Powiat leżajski,leżajski,FALSE,NA
+1809000,1809,18,Podkarpackie,Powiat lubaczowski,Powiat lubaczowski,lubaczowski,FALSE,NA
+1810000,1810,18,Podkarpackie,Powiat łańcucki,Powiat łańcucki,łańcucki,FALSE,NA
+1811000,1811,18,Podkarpackie,Powiat mielecki,Powiat mielecki,mielecki,FALSE,NA
+1812000,1812,18,Podkarpackie,Powiat niżański,Powiat niżański,niżański,FALSE,NA
+1813000,1813,18,Podkarpackie,Powiat przemyski,Powiat przemyski,przemyski,FALSE,NA
+1814000,1814,18,Podkarpackie,Powiat przeworski,Powiat przeworski,przeworski,FALSE,NA
+1815000,1815,18,Podkarpackie,Powiat ropczycko-sędziszowski,Powiat ropczycko-sędziszowski,ropczycko-sędziszowski,FALSE,NA
+1816000,1816,18,Podkarpackie,Powiat rzeszowski,Powiat rzeszowski,rzeszowski,FALSE,NA
+1817000,1817,18,Podkarpackie,Powiat sanocki,Powiat sanocki,sanocki,FALSE,NA
+1818000,1818,18,Podkarpackie,Powiat stalowowolski,Powiat stalowowolski,stalowowolski,FALSE,NA
+1819000,1819,18,Podkarpackie,Powiat strzyżowski,Powiat strzyżowski,strzyżowski,FALSE,NA
+1820000,1820,18,Podkarpackie,Powiat tarnobrzeski,Powiat tarnobrzeski,tarnobrzeski,FALSE,NA
+1821000,1821,18,Podkarpackie,Powiat leski,Powiat leski,leski,FALSE,NA
+1861000,1861,18,Podkarpackie,Powiat m. Krosno,Powiat m. Krosno,m. Krosno,FALSE,NA
+1862000,1862,18,Podkarpackie,Powiat m. Przemyśl,Powiat m. Przemyśl,m. Przemyśl,FALSE,NA
+1863000,1863,18,Podkarpackie,Powiat m. Rzeszów,Powiat m. Rzeszów,m. Rzeszów,FALSE,NA
+1864000,1864,18,Podkarpackie,Powiat m. Tarnobrzeg,Powiat m. Tarnobrzeg,m. Tarnobrzeg,FALSE,NA
+2001000,2001,20,Podlaskie,Powiat augustowski,Powiat augustowski,augustowski,FALSE,NA
+2002000,2002,20,Podlaskie,Powiat białostocki,Powiat białostocki,białostocki,FALSE,NA
+2003000,2003,20,Podlaskie,Powiat bielski,Powiat bielski,bielski,TRUE,1
+2004000,2004,20,Podlaskie,Powiat grajewski,Powiat grajewski,grajewski,FALSE,NA
+2005000,2005,20,Podlaskie,Powiat hajnowski,Powiat hajnowski,hajnowski,FALSE,NA
+2006000,2006,20,Podlaskie,Powiat kolneński,Powiat kolneński,kolneński,FALSE,NA
+2007000,2007,20,Podlaskie,Powiat łomżyński,Powiat łomżyński,łomżyński,FALSE,NA
+2008000,2008,20,Podlaskie,Powiat moniecki,Powiat moniecki,moniecki,FALSE,NA
+2009000,2009,20,Podlaskie,Powiat sejneński,Powiat sejneński,sejneński,FALSE,NA
+2010000,2010,20,Podlaskie,Powiat siemiatycki,Powiat siemiatycki,siemiatycki,FALSE,NA
+2011000,2011,20,Podlaskie,Powiat sokólski,Powiat sokólski,sokólski,FALSE,NA
+2012000,2012,20,Podlaskie,Powiat suwalski,Powiat suwalski,suwalski,FALSE,NA
+2013000,2013,20,Podlaskie,Powiat wysokomazowiecki,Powiat wysokomazowiecki,wysokomazowiecki,FALSE,NA
+2014000,2014,20,Podlaskie,Powiat zambrowski,Powiat zambrowski,zambrowski,FALSE,NA
+2061000,2061,20,Podlaskie,Powiat m. Białystok,Powiat m. Białystok,m. Białystok,FALSE,NA
+2062000,2062,20,Podlaskie,Powiat m. Łomża,Powiat m. Łomża,m. Łomża,FALSE,NA
+2063000,2063,20,Podlaskie,Powiat m. Suwałki,Powiat m. Suwałki,m. Suwałki,FALSE,NA
+2201000,2201,22,Pomorskie,Powiat bytowski,Powiat bytowski,bytowski,FALSE,NA
+2202000,2202,22,Pomorskie,Powiat chojnicki,Powiat chojnicki,chojnicki,FALSE,NA
+2203000,2203,22,Pomorskie,Powiat człuchowski,Powiat człuchowski,człuchowski,FALSE,NA
+2204000,2204,22,Pomorskie,Powiat gdański,Powiat gdański,gdański,FALSE,NA
+2205000,2205,22,Pomorskie,Powiat kartuski,Powiat kartuski,kartuski,FALSE,NA
+2206000,2206,22,Pomorskie,Powiat kościerski,Powiat kościerski,kościerski,FALSE,NA
+2207000,2207,22,Pomorskie,Powiat kwidzyński,Powiat kwidzyński,kwidzyński,FALSE,NA
+2208000,2208,22,Pomorskie,Powiat lęborski,Powiat lęborski,lęborski,FALSE,NA
+2209000,2209,22,Pomorskie,Powiat malborski,Powiat malborski,malborski,FALSE,NA
+2210000,2210,22,Pomorskie,Powiat nowodworski,Powiat nowodworski,nowodworski,TRUE,2
+2211000,2211,22,Pomorskie,Powiat pucki,Powiat pucki,pucki,FALSE,NA
+2212000,2212,22,Pomorskie,Powiat słupski,Powiat słupski,słupski,FALSE,NA
+2213000,2213,22,Pomorskie,Powiat starogardzki,Powiat starogardzki,starogardzki,FALSE,NA
+2214000,2214,22,Pomorskie,Powiat tczewski,Powiat tczewski,tczewski,FALSE,NA
+2215000,2215,22,Pomorskie,Powiat wejherowski,Powiat wejherowski,wejherowski,FALSE,NA
+2216000,2216,22,Pomorskie,Powiat sztumski,Powiat sztumski,sztumski,FALSE,NA
+2261000,2261,22,Pomorskie,Powiat m. Gdańsk,Powiat m. Gdańsk,m. Gdańsk,FALSE,NA
+2262000,2262,22,Pomorskie,Powiat m. Gdynia,Powiat m. Gdynia,m. Gdynia,FALSE,NA
+2263000,2263,22,Pomorskie,Powiat m. Słupsk,Powiat m. Słupsk,m. Słupsk,FALSE,NA
+2264000,2264,22,Pomorskie,Powiat m. Sopot,Powiat m. Sopot,m. Sopot,FALSE,NA
+2401000,2401,24,Śląskie,Powiat będziński,Powiat będziński,będziński,FALSE,NA
+2402000,2402,24,Śląskie,Powiat bielski,Powiat bielski,bielski,TRUE,2
+2403000,2403,24,Śląskie,Powiat cieszyński,Powiat cieszyński,cieszyński,FALSE,NA
+2404000,2404,24,Śląskie,Powiat częstochowski,Powiat częstochowski,częstochowski,FALSE,NA
+2405000,2405,24,Śląskie,Powiat gliwicki,Powiat gliwicki,gliwicki,FALSE,NA
+2406000,2406,24,Śląskie,Powiat kłobucki,Powiat kłobucki,kłobucki,FALSE,NA
+2407000,2407,24,Śląskie,Powiat lubliniecki,Powiat lubliniecki,lubliniecki,FALSE,NA
+2408000,2408,24,Śląskie,Powiat mikołowski,Powiat mikołowski,mikołowski,FALSE,NA
+2409000,2409,24,Śląskie,Powiat myszkowski,Powiat myszkowski,myszkowski,FALSE,NA
+2410000,2410,24,Śląskie,Powiat pszczyński,Powiat pszczyński,pszczyński,FALSE,NA
+2411000,2411,24,Śląskie,Powiat raciborski,Powiat raciborski,raciborski,FALSE,NA
+2412000,2412,24,Śląskie,Powiat rybnicki,Powiat rybnicki,rybnicki,FALSE,NA
+2413000,2413,24,Śląskie,Powiat tarnogórski,Powiat tarnogórski,tarnogórski,FALSE,NA
+2414000,2414,24,Śląskie,Powiat bieruńsko-lędziński,Powiat bieruńsko-lędziński,bieruńsko-lędziński,FALSE,NA
+2415000,2415,24,Śląskie,Powiat wodzisławski,Powiat wodzisławski,wodzisławski,FALSE,NA
+2416000,2416,24,Śląskie,Powiat zawierciański,Powiat zawierciański,zawierciański,FALSE,NA
+2417000,2417,24,Śląskie,Powiat żywiecki,Powiat żywiecki,żywiecki,FALSE,NA
+2461000,2461,24,Śląskie,Powiat m. Bielsko-Biała,Powiat m. Bielsko-Biała,m. Bielsko-Biała,FALSE,NA
+2462000,2462,24,Śląskie,Powiat m. Bytom,Powiat m. Bytom,m. Bytom,FALSE,NA
+2463000,2463,24,Śląskie,Powiat m. Chorzów,Powiat m. Chorzów,m. Chorzów,FALSE,NA
+2464000,2464,24,Śląskie,Powiat m. Częstochowa,Powiat m. Częstochowa,m. Częstochowa,FALSE,NA
+2465000,2465,24,Śląskie,Powiat m. Dąbrowa Górnicza,Powiat m. Dąbrowa Górnicza,m. Dąbrowa Górnicza,FALSE,NA
+2466000,2466,24,Śląskie,Powiat m. Gliwice,Powiat m. Gliwice,m. Gliwice,FALSE,NA
+2467000,2467,24,Śląskie,Powiat m. Jastrzębie-Zdrój,Powiat m. Jastrzębie-Zdrój,m. Jastrzębie-Zdrój,FALSE,NA
+2468000,2468,24,Śląskie,Powiat m. Jaworzno,Powiat m. Jaworzno,m. Jaworzno,FALSE,NA
+2469000,2469,24,Śląskie,Powiat m. Katowice,Powiat m. Katowice,m. Katowice,FALSE,NA
+2470000,2470,24,Śląskie,Powiat m. Mysłowice,Powiat m. Mysłowice,m. Mysłowice,FALSE,NA
+2471000,2471,24,Śląskie,Powiat m. Piekary Śląskie,Powiat m. Piekary Śląskie,m. Piekary Śląskie,FALSE,NA
+2472000,2472,24,Śląskie,Powiat m. Ruda Śląska,Powiat m. Ruda Śląska,m. Ruda Śląska,FALSE,NA
+2473000,2473,24,Śląskie,Powiat m. Rybnik,Powiat m. Rybnik,m. Rybnik,FALSE,NA
+2474000,2474,24,Śląskie,Powiat m. Siemianowice Śląskie,Powiat m. Siemianowice Śląskie,m. Siemianowice Śląskie,FALSE,NA
+2475000,2475,24,Śląskie,Powiat m. Sosnowiec,Powiat m. Sosnowiec,m. Sosnowiec,FALSE,NA
+2476000,2476,24,Śląskie,Powiat m. Świętochłowice,Powiat m. Świętochłowice,m. Świętochłowice,FALSE,NA
+2477000,2477,24,Śląskie,Powiat m. Tychy,Powiat m. Tychy,m. Tychy,FALSE,NA
+2478000,2478,24,Śląskie,Powiat m. Zabrze,Powiat m. Zabrze,m. Zabrze,FALSE,NA
+2479000,2479,24,Śląskie,Powiat m. Żory,Powiat m. Żory,m. Żory,FALSE,NA
+2601000,2601,26,Świętokrzyskie,Powiat buski,Powiat buski,buski,FALSE,NA
+2602000,2602,26,Świętokrzyskie,Powiat jędrzejowski,Powiat jędrzejowski,jędrzejowski,FALSE,NA
+2603000,2603,26,Świętokrzyskie,Powiat kazimierski,Powiat kazimierski,kazimierski,FALSE,NA
+2604000,2604,26,Świętokrzyskie,Powiat kielecki,Powiat kielecki,kielecki,FALSE,NA
+2605000,2605,26,Świętokrzyskie,Powiat konecki,Powiat konecki,konecki,FALSE,NA
+2606000,2606,26,Świętokrzyskie,Powiat opatowski,Powiat opatowski,opatowski,FALSE,NA
+2607000,2607,26,Świętokrzyskie,Powiat ostrowiecki,Powiat ostrowiecki,ostrowiecki,FALSE,NA
+2608000,2608,26,Świętokrzyskie,Powiat pińczowski,Powiat pińczowski,pińczowski,FALSE,NA
+2609000,2609,26,Świętokrzyskie,Powiat sandomierski,Powiat sandomierski,sandomierski,FALSE,NA
+2610000,2610,26,Świętokrzyskie,Powiat skarżyski,Powiat skarżyski,skarżyski,FALSE,NA
+2611000,2611,26,Świętokrzyskie,Powiat starachowicki,Powiat starachowicki,starachowicki,FALSE,NA
+2612000,2612,26,Świętokrzyskie,Powiat staszowski,Powiat staszowski,staszowski,FALSE,NA
+2613000,2613,26,Świętokrzyskie,Powiat włoszczowski,Powiat włoszczowski,włoszczowski,FALSE,NA
+2661000,2661,26,Świętokrzyskie,Powiat m. Kielce,Powiat m. Kielce,m. Kielce,FALSE,NA
+2801000,2801,28,Warmińsko-Mazurskie,Powiat bartoszycki,Powiat bartoszycki,bartoszycki,FALSE,NA
+2802000,2802,28,Warmińsko-Mazurskie,Powiat braniewski,Powiat braniewski,braniewski,FALSE,NA
+2803000,2803,28,Warmińsko-Mazurskie,Powiat działdowski,Powiat działdowski,działdowski,FALSE,NA
+2804000,2804,28,Warmińsko-Mazurskie,Powiat elbląski,Powiat elbląski,elbląski,FALSE,NA
+2805000,2805,28,Warmińsko-Mazurskie,Powiat ełcki,Powiat ełcki,ełcki,FALSE,NA
+2806000,2806,28,Warmińsko-Mazurskie,Powiat giżycki,Powiat giżycki,giżycki,FALSE,NA
+2807000,2807,28,Warmińsko-Mazurskie,Powiat iławski,Powiat iławski,iławski,FALSE,NA
+2808000,2808,28,Warmińsko-Mazurskie,Powiat kętrzyński,Powiat kętrzyński,kętrzyński,FALSE,NA
+2809000,2809,28,Warmińsko-Mazurskie,Powiat lidzbarski,Powiat lidzbarski,lidzbarski,FALSE,NA
+2810000,2810,28,Warmińsko-Mazurskie,Powiat mrągowski,Powiat mrągowski,mrągowski,FALSE,NA
+2811000,2811,28,Warmińsko-Mazurskie,Powiat nidzicki,Powiat nidzicki,nidzicki,FALSE,NA
+2812000,2812,28,Warmińsko-Mazurskie,Powiat nowomiejski,Powiat nowomiejski,nowomiejski,FALSE,NA
+2813000,2813,28,Warmińsko-Mazurskie,Powiat olecki,Powiat olecki,olecki,FALSE,NA
+2814000,2814,28,Warmińsko-Mazurskie,Powiat olsztyński,Powiat olsztyński,olsztyński,FALSE,NA
+2815000,2815,28,Warmińsko-Mazurskie,Powiat ostródzki,Powiat ostródzki,ostródzki,FALSE,NA
+2816000,2816,28,Warmińsko-Mazurskie,Powiat piski,Powiat piski,piski,FALSE,NA
+2817000,2817,28,Warmińsko-Mazurskie,Powiat szczycieński,Powiat szczycieński,szczycieński,FALSE,NA
+2818000,2818,28,Warmińsko-Mazurskie,Powiat gołdapski,Powiat gołdapski,gołdapski,FALSE,NA
+2819000,2819,28,Warmińsko-Mazurskie,Powiat węgorzewski,Powiat węgorzewski,węgorzewski,FALSE,NA
+2861000,2861,28,Warmińsko-Mazurskie,Powiat m. Elbląg,Powiat m. Elbląg,m. Elbląg,FALSE,NA
+2862000,2862,28,Warmińsko-Mazurskie,Powiat m. Olsztyn,Powiat m. Olsztyn,m. Olsztyn,FALSE,NA
+3001000,3001,30,Wielkopolskie,Powiat chodzieski,Powiat chodzieski,chodzieski,FALSE,NA
+3002000,3002,30,Wielkopolskie,Powiat czarnkowsko-trzcianecki,Powiat czarnkowsko-trzcianecki,czarnkowsko-trzcianecki,FALSE,NA
+3003000,3003,30,Wielkopolskie,Powiat gnieźnieński,Powiat gnieźnieński,gnieźnieński,FALSE,NA
+3004000,3004,30,Wielkopolskie,Powiat gostyński,Powiat gostyński,gostyński,FALSE,NA
+3005000,3005,30,Wielkopolskie,Powiat grodziski,Powiat grodziski,grodziski,TRUE,2
+3006000,3006,30,Wielkopolskie,Powiat jarociński,Powiat jarociński,jarociński,FALSE,NA
+3007000,3007,30,Wielkopolskie,Powiat kaliski,Powiat kaliski,kaliski,FALSE,NA
+3008000,3008,30,Wielkopolskie,Powiat kępiński,Powiat kępiński,kępiński,FALSE,NA
+3009000,3009,30,Wielkopolskie,Powiat kolski,Powiat kolski,kolski,FALSE,NA
+3010000,3010,30,Wielkopolskie,Powiat koniński,Powiat koniński,koniński,FALSE,NA
+3011000,3011,30,Wielkopolskie,Powiat kościański,Powiat kościański,kościański,FALSE,NA
+3012000,3012,30,Wielkopolskie,Powiat krotoszyński,Powiat krotoszyński,krotoszyński,FALSE,NA
+3013000,3013,30,Wielkopolskie,Powiat leszczyński,Powiat leszczyński,leszczyński,FALSE,NA
+3014000,3014,30,Wielkopolskie,Powiat międzychodzki,Powiat międzychodzki,międzychodzki,FALSE,NA
+3015000,3015,30,Wielkopolskie,Powiat nowotomyski,Powiat nowotomyski,nowotomyski,FALSE,NA
+3016000,3016,30,Wielkopolskie,Powiat obornicki,Powiat obornicki,obornicki,FALSE,NA
+3017000,3017,30,Wielkopolskie,Powiat ostrowski,Powiat ostrowski,ostrowski,TRUE,2
+3018000,3018,30,Wielkopolskie,Powiat ostrzeszowski,Powiat ostrzeszowski,ostrzeszowski,FALSE,NA
+3019000,3019,30,Wielkopolskie,Powiat pilski,Powiat pilski,pilski,FALSE,NA
+3020000,3020,30,Wielkopolskie,Powiat pleszewski,Powiat pleszewski,pleszewski,FALSE,NA
+3021000,3021,30,Wielkopolskie,Powiat poznański,Powiat poznański,poznański,FALSE,NA
+3022000,3022,30,Wielkopolskie,Powiat rawicki,Powiat rawicki,rawicki,FALSE,NA
+3023000,3023,30,Wielkopolskie,Powiat słupecki,Powiat słupecki,słupecki,FALSE,NA
+3024000,3024,30,Wielkopolskie,Powiat szamotulski,Powiat szamotulski,szamotulski,FALSE,NA
+3025000,3025,30,Wielkopolskie,Powiat średzki,Powiat średzki,średzki,TRUE,2
+3026000,3026,30,Wielkopolskie,Powiat śremski,Powiat śremski,śremski,FALSE,NA
+3027000,3027,30,Wielkopolskie,Powiat turecki,Powiat turecki,turecki,FALSE,NA
+3028000,3028,30,Wielkopolskie,Powiat wągrowiecki,Powiat wągrowiecki,wągrowiecki,FALSE,NA
+3029000,3029,30,Wielkopolskie,Powiat wolsztyński,Powiat wolsztyński,wolsztyński,FALSE,NA
+3030000,3030,30,Wielkopolskie,Powiat wrzesiński,Powiat wrzesiński,wrzesiński,FALSE,NA
+3031000,3031,30,Wielkopolskie,Powiat złotowski,Powiat złotowski,złotowski,FALSE,NA
+3061000,3061,30,Wielkopolskie,Powiat m. Kalisz,Powiat m. Kalisz,m. Kalisz,FALSE,NA
+3062000,3062,30,Wielkopolskie,Powiat m. Konin,Powiat m. Konin,m. Konin,FALSE,NA
+3063000,3063,30,Wielkopolskie,Powiat m. Leszno,Powiat m. Leszno,m. Leszno,FALSE,NA
+3064000,3064,30,Wielkopolskie,Powiat m. Poznań,Powiat m. Poznań,m. Poznań,FALSE,NA
+3201000,3201,32,Zachodniopomorskie,Powiat białogardzki,Powiat białogardzki,białogardzki,FALSE,NA
+3202000,3202,32,Zachodniopomorskie,Powiat choszczeński,Powiat choszczeński,choszczeński,FALSE,NA
+3203000,3203,32,Zachodniopomorskie,Powiat drawski,Powiat drawski,drawski,FALSE,NA
+3204000,3204,32,Zachodniopomorskie,Powiat goleniowski,Powiat goleniowski,goleniowski,FALSE,NA
+3205000,3205,32,Zachodniopomorskie,Powiat gryficki,Powiat gryficki,gryficki,FALSE,NA
+3206000,3206,32,Zachodniopomorskie,Powiat gryfiński,Powiat gryfiński,gryfiński,FALSE,NA
+3207000,3207,32,Zachodniopomorskie,Powiat kamieński,Powiat kamieński,kamieński,FALSE,NA
+3208000,3208,32,Zachodniopomorskie,Powiat kołobrzeski,Powiat kołobrzeski,kołobrzeski,FALSE,NA
+3209000,3209,32,Zachodniopomorskie,Powiat koszaliński,Powiat koszaliński,koszaliński,FALSE,NA
+3210000,3210,32,Zachodniopomorskie,Powiat myśliborski,Powiat myśliborski,myśliborski,FALSE,NA
+3211000,3211,32,Zachodniopomorskie,Powiat policki,Powiat policki,policki,FALSE,NA
+3212000,3212,32,Zachodniopomorskie,Powiat pyrzycki,Powiat pyrzycki,pyrzycki,FALSE,NA
+3213000,3213,32,Zachodniopomorskie,Powiat sławieński,Powiat sławieński,sławieński,FALSE,NA
+3214000,3214,32,Zachodniopomorskie,Powiat stargardzki,Powiat stargardzki,stargardzki,FALSE,NA
+3215000,3215,32,Zachodniopomorskie,Powiat szczecinecki,Powiat szczecinecki,szczecinecki,FALSE,NA
+3216000,3216,32,Zachodniopomorskie,Powiat świdwiński,Powiat świdwiński,świdwiński,FALSE,NA
+3217000,3217,32,Zachodniopomorskie,Powiat wałecki,Powiat wałecki,wałecki,FALSE,NA
+3218000,3218,32,Zachodniopomorskie,Powiat łobeski,Powiat łobeski,łobeski,FALSE,NA
+3261000,3261,32,Zachodniopomorskie,Powiat m. Koszalin,Powiat m. Koszalin,m. Koszalin,FALSE,NA
+3262000,3262,32,Zachodniopomorskie,Powiat m. Szczecin,Powiat m. Szczecin,m. Szczecin,FALSE,NA
+3263000,3263,32,Zachodniopomorskie,Powiat m. Świnoujście,Powiat m. Świnoujście,m. Świnoujście,FALSE,NA
