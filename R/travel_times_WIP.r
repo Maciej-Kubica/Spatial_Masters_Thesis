@@ -9,7 +9,7 @@ schools_sf <- st_as_sf(df_schools_combined_geo, coords = c("longitude", "latitud
 schools_proj <- st_transform(schools_sf, crs = 2180)
 
 # 2. CREATE A SMALL TEST SUBSET (first 5 schools)
-test_schools <- schools_proj[1:5, ]
+test_schools <- schools_proj[1:20, ]
 
 neighbors_list <- st_is_within_distance(test_schools, dist = 30000)
 pairs_df <- data.frame(
