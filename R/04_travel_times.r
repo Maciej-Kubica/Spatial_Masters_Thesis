@@ -2,6 +2,7 @@ library(sf)
 library(osrm)
 library(dplyr)
 
+setwd("C:/Users/Maciej/Desktop/Magisterka/Spatial_Masters_Thesis\\Data\\Processed")
 # 1. LOAD AND PREP FULL DATASET 
 df_schools_combined_geo <- read.csv("geocoded_schools.csv")
 
@@ -9,7 +10,6 @@ schools_sf <- st_as_sf(df_schools_combined_geo, coords = c("longitude", "latitud
 schools_proj <- st_transform(schools_sf, crs = 2180)
 
 # 2. FIND NEIGHBORS WITHIN 30KM FOR THE ENTIRE DATASET
-cat("Finding neighbors within 30km...\n")
 neighbors_list <- st_is_within_distance(schools_proj, dist = 30000)
 
 pairs_df <- data.frame(
@@ -19,23 +19,13 @@ pairs_df <- data.frame(
 
 pairs_df$travel_time_mins <- NA
 
-# Ensure coords are numeric just in case
-coords <- df_schools_combined_geo %>% 
-  select(rspo, longitude, latitude) %>%
-  mutate(
-    longitude = as.numeric(gsub(",", ".", longitude)),
-    latitude = as.numeric(gsub(",", ".", latitude))
-  ) %>%
-  as.data.frame()
-
 # 3. PROCESS WITH SMALLER BATCH SIZE
 batch_size <- 60
 total_pairs <- nrow(pairs_df)
 
 cat("Starting processing for", total_pairs, "pairs...\n")
-cat("Note: This will take roughly 2.5 hours on the public OSRM API.\n")
 
-for(i in seq(1, 189000, by = batch_size)) {
+for(i in seq(1, total_pairs, by = batch_size)) {
   
   end_idx <- min(i + batch_size - 1, total_pairs)
   batch <- pairs_df[i:end_idx, ]

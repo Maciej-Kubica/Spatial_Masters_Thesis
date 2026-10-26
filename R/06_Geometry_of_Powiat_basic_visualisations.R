@@ -29,7 +29,7 @@ powiat_df <- powiat_df %>%
 powiat_df <- st_as_sf(powiat_df, sf_column_name = "geometry")
 
 
-duplicated(powiat_df$kod_teryt_powiat) # Check for duplicates
+sum(duplicated(powiat_df$kod_teryt_powiat)) # Check for duplicates
 setdiff(dict$teryt_powiat, powiat_df$kod_teryt_powiat) # Check for missing powiats in the dictionary
 #There is no data for Powiat Siedlecki
 

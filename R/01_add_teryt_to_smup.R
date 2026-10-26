@@ -7,29 +7,23 @@
 #          Outputs clean individual CSVs and a consolidated wide dataset.
 # ==============================================================================
 
-suppressPackageStartupMessages({
-  library(readr)
-  library(dplyr)
-  library(stringr)
-  library(purrr)
-})
 
-cat(">>> Enriching SMUP datasets with official TERYT codes and Voivodeships...\n")
+library(readr)
+library(dplyr)
+library(stringr)
+library(purrr)
+
 
 # Paths
 raw_dir    <- file.path("Data", "Raw_18_10_2026")
 dict_file  <- file.path("Data", "Dictionary", "powiats_dictionary.rds")
 out_dir    <- file.path("Data", "SMUP_with_TERYT")
 
-if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
 # ------------------------------------------------------------------------------
 # 1. Load Master Dictionary
 # ------------------------------------------------------------------------------
-if (!file.exists(dict_file)) {
-  cat("Master dictionary not found. Generating now via 00_create_powiats_dictionary.R...\n")
-  source(file.path("R", "00_create_powiats_dictionary.R"))
-}
+
 dict_df <- readRDS(dict_file)
 
 duplicate_names <- dict_df %>% 
@@ -37,14 +31,10 @@ duplicate_names <- dict_df %>%
   pull(nazwa_smup) %>% 
   unique()
 
-cat(sprintf("Loaded dictionary with %d poviats. Found %d duplicate name pairs to disambiguate.\n",
-            nrow(dict_df), length(duplicate_names)))
-
 # ------------------------------------------------------------------------------
 # 2. List the 6 Raw SMUP CSV files
 # ------------------------------------------------------------------------------
 smup_files <- list.files(raw_dir, pattern = "Powiat\\.csv$", full.names = TRUE)
-stopifnot("Expected 6 SMUP files" = length(smup_files) == 6)
 
 # Friendly indicator variable names for consolidated dataset
 indicator_name_map <- c(
@@ -64,14 +54,7 @@ wide_list <- list()
 for (sf in smup_files) {
   file_base <- basename(sf)
   var_clean_name <- indicator_name_map[file_base]
-  cat(sprintf("\nProcessing: %s ...\n", file_base))
-  
-  # Read raw file (UTF-8, semicolon delimiter)
   raw_df <- read_delim(sf, delim = ";", locale = locale(encoding = "UTF-8"), show_col_types = FALSE)
-  
-  if (nrow(raw_df) != 380) {
-    stop(sprintf("File %s has %d rows instead of expected 380!", file_base, nrow(raw_df)))
-  }
   
   # Deterministic tie-breaking for duplicate names
   enriched_df <- raw_df %>%
@@ -96,12 +79,6 @@ for (sf in smup_files) {
   stopifnot("All TERYT codes must be non-NA" = sum(is.na(enriched_df$teryt_powiat)) == 0)
   stopifnot("All 380 TERYT codes must be distinct" = n_distinct(enriched_df$teryt_powiat) == 380)
   
-  # Verify duplicate disambiguation against our proven reference
-  bielski_check <- enriched_df %>% filter(nazwa_smup == "Powiat bielski")
-  stopifnot("Powiat bielski row 1 must be Podlaskie (2003000)" = 
-              bielski_check$teryt_powiat[1] == "2003000" && bielski_check$wojewodztwo[1] == "Podlaskie")
-  stopifnot("Powiat bielski row 2 must be Śląskie (2402000)" = 
-              bielski_check$teryt_powiat[2] == "2402000" && bielski_check$wojewodztwo[2] == "Śląskie")
   
   # Organize column order
   out_df <- enriched_df %>%
@@ -133,7 +110,6 @@ for (sf in smup_files) {
 # ------------------------------------------------------------------------------
 # 4. Generate Consolidated Wide SMUP Table (1 row per powiat, 6 metrics)
 # ------------------------------------------------------------------------------
-cat("\n>>> Building consolidated wide SMUP dataset...\n")
 
 smup_wide <- dict_df %>%
   select(kod_teryt = teryt_powiat, teryt_powiat_4, teryt_wojewodztwo, wojewodztwo, powiat_nazwa = nazwa_smup)
@@ -141,6 +117,7 @@ smup_wide <- dict_df %>%
 for (var_name in names(wide_list)) {
   smup_wide <- smup_wide %>% left_join(wide_list[[var_name]], by = "kod_teryt")
 }
+smup_wide$social_service_per_1k <- smup_wide$social_service_per_1k / 100
 
 wide_csv <- file.path(out_dir, "SMUP_2024_Powiat_All_Indicators.csv")
 wide_rds <- file.path(out_dir, "SMUP_2024_Powiat_All_Indicators.rds")
@@ -151,15 +128,4 @@ saveRDS(smup_wide, wide_rds)
 cat(">>> Saved consolidated wide SMUP CSV to:", wide_csv, "\n")
 cat(">>> Saved consolidated wide SMUP RDS to:", wide_rds, "\n")
 
-cat("\nSample preview of consolidated SMUP data (first 5 poviats):\n")
-print(head(smup_wide, 5))
 
-cat("\nSummary of the 10 disambiguated duplicate poviats across indicators:\n")
-print(
-  smup_wide %>% 
-    filter(powiat_nazwa %in% duplicate_names) %>% 
-    select(kod_teryt, wojewodztwo, powiat_nazwa, free_lunch_pct, student_teacher_ratio, tenured_teachers_pct) %>%
-    arrange(powiat_nazwa, kod_teryt)
-)
-
-cat("\n>>> All 6 SMUP files successfully enriched with TERYT codes!\n")

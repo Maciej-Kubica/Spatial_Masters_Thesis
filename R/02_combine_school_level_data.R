@@ -7,12 +7,11 @@
 #          covariates (from SIO) and poviat-level context (from BDL and SMUP).
 # ==============================================================================
 
-suppressPackageStartupMessages({
-  library(readr)
-  library(readxl)
-  library(dplyr)
-  library(stringr)
-})
+library(readr)
+library(readxl)
+library(dplyr)
+library(stringr)
+
 
 cat(">>> Step 1: Loading all datasets into distinct data frames...\n")
 
@@ -26,13 +25,13 @@ proc_dir     <- file.path("Data", "Processed")
 # ------------------------------------------------------------------------------
 # 1. Load Master Dictionary
 # ------------------------------------------------------------------------------
-cat("Loading Dictionary (380 poviats reference)...\n")
+
 df_dict <- readRDS(dict_file)
 
 # ------------------------------------------------------------------------------
 # 2. Load CKE Matura Exam Results (School-level outcomes)
 # ------------------------------------------------------------------------------
-cat("Loading CKE Matura 2025 Basic Math data...\n")
+
 cke_raw <- read_excel(file.path(raw_dir, "Basic_Math_2025_School.xlsx"), skip = 2)
 
 df_cke_math <- cke_raw %>%
@@ -75,7 +74,7 @@ df_cke_math <- cke_raw %>%
 # ------------------------------------------------------------------------------
 # 3. Load SIO School Registry (School-level covariates)
 # ------------------------------------------------------------------------------
-cat("Loading SIO School Registry covariates...\n")
+
 sio_raw <- read_csv(file.path(raw_dir, "List_of_Schools_2025_School.csv"), 
                     locale = locale(encoding = "UTF-8"), show_col_types = FALSE)
 
@@ -105,7 +104,7 @@ df_sio_schools <- sio_raw %>%
 # ------------------------------------------------------------------------------
 # 4. Load GUS BDL Indicators (Poviat-level socioeconomics)
 # ------------------------------------------------------------------------------
-cat("Loading GUS BDL Wages & Unemployment...\n")
+
 wage_raw <- read_excel(file.path(raw_dir, "Mean_Wage_2024_Powiat.xlsx"), sheet = "TABLICA", skip = 2)
 df_bdl_wage <- wage_raw %>%
   select(kod_teryt_powiat = 1, bdl_mean_wage_2024 = 3) %>%
@@ -125,7 +124,7 @@ df_bdl_unemployment <- unemp_raw %>%
 # ------------------------------------------------------------------------------
 # 5. Load SMUP Enriched Indicators (Poviat-level education & social welfare)
 # ------------------------------------------------------------------------------
-cat("Loading enriched SMUP indicators...\n")
+
 df_smup_all <- readRDS(smup_file) %>%
   select(
     kod_teryt_powiat            = kod_teryt,
@@ -140,7 +139,6 @@ df_smup_all <- readRDS(smup_file) %>%
 # ==============================================================================
 # Step 2: Combine all data into ONE single school-level data frame
 # ==============================================================================
-cat("\n>>> Step 2: Combining all data at single school observation level...\n")
 
 # Base table: CKE schools taking Matura exams
 # Left join 1: School-level SIO registry variables (by rspo)
@@ -153,14 +151,12 @@ df_schools_combined <- df_cke_math %>%
   left_join(df_bdl_wage, by = "kod_teryt_powiat") %>%
   left_join(df_bdl_unemployment, by = "kod_teryt_powiat") %>%
   left_join(df_smup_all, by = "kod_teryt_powiat") %>%
-  # Crucial for HSAR: Order strictly by higher-level spatial unit (kod_teryt_powiat)
   arrange(kod_teryt_powiat, rspo)
 
 # Let's keep only high-schools and technical schools for youth that had a least 5 students taking the Matura exam in 2025
 df_schools_combined <- df_schools_combined[df_schools_combined$typ_placowki %in% c("liceum", "technikum"), ]
 df_schools_combined <- df_schools_combined[df_schools_combined$rodzaj_placowki %in% "dla młodzieży", ]
 df_schools_combined <- df_schools_combined[df_schools_combined$math_liczba_zdajacych >= 5, ]
-
 
 
 # ------------------------------------------------------------------------------
@@ -171,8 +167,6 @@ stopifnot("All schools must have a valid 7-digit Poviat TERYT" = sum(is.na(df_sc
 stopifnot("All schools must match BDL wages" = sum(is.na(df_schools_combined$bdl_mean_wage_2024)) == 0)
 stopifnot("All schools must match BDL unemployment" = sum(is.na(df_schools_combined$bdl_unemployment_2024)) == 0)
 
-cat(sprintf(">>> Combined dataset successfully built: %d schools across %d poviats.\n",
-            nrow(df_schools_combined), n_distinct(df_schools_combined$kod_teryt_powiat)))
 
 # ------------------------------------------------------------------------------
 # Save Outputs
@@ -183,10 +177,4 @@ write_csv(df_schools_combined, out_csv)
 
 cat(">>> Saved CSV to:", out_csv, "\n")
 
-cat("\nPreview of first 3 schools in combined dataset:\n")
-print(
-  df_schools_combined %>% 
-    select(rspo, nazwa_szkoly, typ_placowki, math_sredni_wynik_pct, 
-           kod_teryt_powiat, bdl_mean_wage_2024, smup_free_lunch_pct) %>% 
-    head(3)
-)
+

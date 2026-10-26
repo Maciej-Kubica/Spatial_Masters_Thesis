@@ -4,7 +4,9 @@
 library(tidygeocoder)
 library(dplyr)
 
-df_schools_combined <- read.csv("geocoded_schools.csv")
+setwd("C:/Users/Maciej/Desktop/Magisterka/Spatial_Masters_Thesis\\Data\\Processed")
+
+df_schools_combined <- read.csv("schools_combined_data.csv")
 
 # STEP 1: GEOCODE SCHOOLS USING ARCGIS
 
@@ -23,3 +25,4 @@ df_schools_combined_geo <- df_schools_combined %>%
 
 # Save the dataframe to a CSV file in your current working directory
 write.csv(df_schools_combined_geo, "geocoded_schools.csv", row.names = FALSE)
+

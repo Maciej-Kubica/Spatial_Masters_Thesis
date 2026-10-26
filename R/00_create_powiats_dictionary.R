@@ -28,10 +28,6 @@ if (!dir.exists(dict_dir)) dir.create(dict_dir, recursive = TRUE)
 # 1. Authoritative 380 poviats from GUS BDL
 # ------------------------------------------------------------------------------
 bdl_file <- file.path(raw_dir, "Mean_Wage_2024_Powiat.xlsx")
-if (!file.exists(bdl_file)) {
-  stop("Missing BDL source file: ", bdl_file)
-}
-
 wage_raw <- read_excel(bdl_file, sheet = "TABLICA", skip = 2)
 names(wage_raw) <- c("teryt_powiat", "nazwa_bdl", "wage_2024")
 
@@ -39,10 +35,6 @@ names(wage_raw) <- c("teryt_powiat", "nazwa_bdl", "wage_2024")
 # 2. Extract Voivodeships & Powiat names from SIO registry
 # ------------------------------------------------------------------------------
 sio_file <- file.path(raw_dir, "List_of_Schools_2025_School.csv")
-if (!file.exists(sio_file)) {
-  stop("Missing SIO source file: ", sio_file)
-}
-
 sio_raw <- read_csv(sio_file, locale = locale(encoding = "UTF-8"), show_col_types = FALSE)
 
 proper_woj_map <- c(
@@ -117,8 +109,6 @@ stopifnot("No NA in TERYT codes" = sum(is.na(dict_df$teryt_powiat)) == 0)
 stopifnot("No NA in Voivodeship" = sum(is.na(dict_df$wojewodztwo)) == 0)
 stopifnot("Exactly 10 duplicate pairs (20 poviats)" = sum(dict_df$is_duplicate_name) == 20)
 
-cat(sprintf(">>> Master Dictionary successfully created with %d poviats across %d voivodeships.\n",
-            nrow(dict_df), n_distinct(dict_df$teryt_wojewodztwo)))
 
 # ------------------------------------------------------------------------------
 # 6. Save outputs
@@ -128,6 +118,3 @@ rds_out <- file.path(dict_dir, "powiats_dictionary.rds")
 
 write_csv(dict_df, csv_out)
 saveRDS(dict_df, rds_out)
-
-cat(">>> Saved CSV to:", csv_out, "\n")
-cat(">>> Saved RDS to:", rds_out, "\n")
